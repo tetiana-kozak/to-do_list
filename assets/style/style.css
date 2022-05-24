@@ -1,0 +1,86 @@
+body * {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #3d3d3d; }
+
+.header {
+  height: 50px;
+  background-color: #3d3d3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .header .header__title {
+    background-color: transparent;
+    color: #f3f3f3;
+    font-size: 26px;
+    margin: 0 auto; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .container .container__menu {
+    width: 30%;
+    height: 400px;
+    background-color: #f0f0f0; }
+    .container .container__menu .list-holder {
+      width: 70%;
+      margin: 0 auto;
+      padding-top: 20px; }
+      .container .container__menu .list-holder .list-holder__title-box {
+        height: 25px;
+        margin: 0 0 10px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+        .container .container__menu .list-holder .list-holder__title-box .list-holder__title {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+        .container .container__menu .list-holder .list-holder__title-box .list-holder__add-project {
+          height: auto;
+          margin: 2px 0;
+          padding: 2px;
+          cursor: pointer; }
+          .container .container__menu .list-holder .list-holder__title-box .list-holder__add-project:hover {
+            border-radius: 3px;
+            background-color: #d5d5d5; }
+      .container .container__menu .list-holder .list-holder__project-box {
+        cursor: pointer; }
+        .container .container__menu .list-holder .list-holder__project-box .project-box__input {
+          height: 25px;
+          border: 1px #3d3d3d solid;
+          border-radius: 3px;
+          width: 100%;
+          padding: 0 5px; }
+        .container .container__menu .list-holder .list-holder__project-box .list-holder__project {
+          height: 25px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          .container .container__menu .list-holder .list-holder__project-box .list-holder__project:hover {
+            border-radius: 3px;
+            background-color: #d5d5d5; }
+  .container .container__main-content {
+    width: 70%; }
+    .container .container__main-content .content-holder {
+      padding-top: 20px;
+      width: 85%;
+      margin: 0 auto; }
+    .container .container__main-content .main-content__title {
+      text-align: center; }

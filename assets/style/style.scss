@@ -1,0 +1,109 @@
+body *{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: transparent;
+    box-sizing: border-box;
+    color: #3d3d3d;
+}
+// h1,h2,h3,h4,h5,h6,p{
+//     background-color: transparent;
+// }
+
+.header{
+    height: 50px;
+    background-color: #3d3d3d;
+    display: flex;
+    align-items: center;
+
+    .header__title{
+        background-color: transparent;
+        color: #f3f3f3;
+        font-size: 26px;
+        margin: 0 auto;
+    }
+}
+
+.container{
+    display: flex;
+    
+    .container__menu{
+        width: 30%;
+        height: 400px;
+        background-color: #f0f0f0;
+        
+        .list-holder{
+            width: 70%;
+            margin: 0 auto;
+            padding-top: 20px;
+
+            .list-holder__title-box{
+                height: 25px;
+                margin: 0 0 10px 0;
+                display: flex;
+                justify-content: space-between;
+
+                .list-holder__title {
+                    display: flex;
+                    align-items: center;
+                }
+                .list-holder__add-project{
+                    height: auto;
+                    margin: 2px 0;
+                    padding: 2px;
+                    cursor: pointer;
+                    &:hover {
+                        border-radius: 3px;
+                        background-color: #d5d5d5;
+                    }
+                }
+            }
+
+            .list-holder__project-box{
+                cursor: pointer;
+                               
+                .project-box__input{
+                    height: 25px;
+                    border: 1px #3d3d3d solid;
+                    border-radius: 3px;
+                    width: 100%;
+                    padding: 0 5px;
+                }
+                .list-holder__project{
+                    height: 25px;
+                    display: flex;
+                    align-items: center;
+                    &:hover{
+                        border-radius: 3px;
+                        background-color: #d5d5d5;
+                    }
+                }
+
+            }
+            
+        }
+    }
+
+    .container__main-content{
+        width: 70%;
+        .content-holder{
+            padding-top: 20px;
+            width: 85%;
+            margin: 0 auto;
+            .content-holder__title{
+
+            }
+            .content-holder__card{
+                .card-name{
+
+                }
+                .card-task{
+
+                }
+            }
+        }
+        .main-content__title{
+            text-align: center;
+        }
+    }
+
+}
